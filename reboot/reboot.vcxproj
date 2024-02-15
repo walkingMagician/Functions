@@ -24,6 +24,7 @@
     <ProjectGuid>{63eac9a6-bec8-4b2f-9f09-d5dfc0960ec9}</ProjectGuid>
     <RootNamespace>reboot</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Overload</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
