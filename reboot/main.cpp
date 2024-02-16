@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 
 void FillRand(int** arr, int n, int x);
@@ -12,7 +12,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 
-	// x - вертикаль n - горизонталь
+	// x - РІРµСЂС‚РёРєР°Р»СЊ n - РіРѕСЂРёР·РѕРЅС‚Р°Р»СЊ
 	int n, x;
 	cout << "n = "; cin >> n;
 	cout << "x = "; cin >> x;
