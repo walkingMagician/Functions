@@ -10,7 +10,9 @@ int minValueIn(int arr[], int n);
 int maxValueIn(int arr[], int n);
 void Sort(int arr[], int n);
 void ShiftLeft(int arr[], int n, int f);
-void ShiftRaight(int arr[], int n, int f);
+
+template<typename T>
+void ShiftRaight(T arr[], int n, int f);
 
 void main()
 {
@@ -149,8 +151,8 @@ void ShiftLeft(int arr[], int n, int f)
 		}
 	}
 }
-
-void ShiftRaight(int arr[], int n, int f)
+template<typename T>
+void ShiftRaight(T arr[], int n, int f)
 {
 	for (int i = 0; i < f; i++)	// кол-во сдвигов вправо
 	{
